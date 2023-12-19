@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "只是一个菜鸡前端的随笔而已。",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "deploy": "bash ./deploy.sh",
+    "docs:preview": "vitepress preview"
+  },
+  "author": "xsqCoder",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "medium-zoom": "^1.0.8",
+    "sass": "^1.60.0",
+    "vitepress": "1.0.0-beta.3",
+    "vitepress-theme-demoblock": "^3.0.3",
+    "sortablejs": "^1.15.1",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.10"
+  },
+  "dependencies": {
+    "element-plus": "^2.4.4",
+    "@element-plus/icons-vue": "^2.3.1",
+    "terser": "^5.16.8",
+    "vue": "3.3.4",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.1.0"
+  }
+}
